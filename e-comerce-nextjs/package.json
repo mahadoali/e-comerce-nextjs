@@ -1,19 +1,19 @@
 {
-  "name": "e-comerce-nextjs",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "lucide-react": "^0.539.0",
     "next": "15.4.6",
-    "react": "18.2.0",
-     "react-dom": "18.2.0",
-     "sharp": "^0.34.3"
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
