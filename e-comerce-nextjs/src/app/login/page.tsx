@@ -16,15 +16,15 @@ export default function LoginPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-1 flex justify-center items-center py-10">
+     <main className="flex-1 flex justify-center items-center py-10">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 px-4">
-          <div className="flex-1 flex justify-center">
+         <div className="flex-1 flex justify-center">
             <Image
               src="/images/signup-phone-cart.png"
               alt="Shopping illustration"
               width={500}
               height={600}
-              className="w-[200px] h-[120px] object-cover rounded-lg"
+              className="w-200 h-120 object-cover rounded-lg"
             />
           </div>
           <div className="w-full lg:w-1/2 max-w-md">
