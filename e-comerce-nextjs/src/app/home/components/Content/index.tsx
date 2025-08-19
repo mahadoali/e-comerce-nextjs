@@ -15,7 +15,7 @@ const categories = [
 const flashSales = [
   {
     name: "HAVIT HV-G92 Gamepad",
-    image: "/images/gamepad.jpeg",
+    image: "/images/Game.png",
     price: "120",
     oldPrice: "150",
     rating: 4,
@@ -23,7 +23,7 @@ const flashSales = [
   },
   {
     name: "AK-900 Wired Keyboard",
-    image: "/images/keyboard.jpeg",
+    image: "/images/keyboard.png",
     price: "950",
     oldPrice: "1180",
     rating: 4,
@@ -31,7 +31,7 @@ const flashSales = [
   },
   {
     name: "IPS LCD Gaming Monitor",
-    image: "/images/monitor.webp",
+    image: "/images/Monitor.png",
     price: "370",
     oldPrice: "400",
     rating: 5,
@@ -39,7 +39,7 @@ const flashSales = [
   },
   {
     name: "S-Series Comfort Chair",
-    image: "/images/chair.avif",
+    image: "/images/chair.png",
     price: "375",
     oldPrice: "400",
     rating: 5,
@@ -50,28 +50,28 @@ const flashSales = [
 const bestSellers = [
   {
     name: "The north coat",
-    image: "/images/coat.jpeg",
+    image: "/images/Coat.png",
     price: "260",
     oldPrice: "310",
     rating: 5,
   },
   {
     name: "Gucci duffle bag",
-    image: "/images/bag.webp",
+    image: "/images/Bag.png",
     price: "930",
     oldPrice: "1100",
     rating: 4,
   },
   {
     name: "RGB liquid CPU Cooler",
-    image: "/images/cooler.webp",
+    image: "/images/Cooler.png",
     price: "560",
     oldPrice: "670",
     rating: 5,
   },
   {
     name: "Small Bookshelf",
-    image: "/images/bookshelf.webp",
+    image: "/images/shelf.png",
     price: "320",
     rating: 4,
   },
@@ -79,19 +79,19 @@ const bestSellers = [
 const exploreProducts = [
   {
     name: "Breed Dry Dog Food",
-    image: "/images/dogfood.webp",
+    image: "/images/Dogfood.png",
     price: "100",
     rating: 4,
   },
   {
     name: "CANON EOS DSLR camera",
-    image: "/images/canon.webp",
+    image: "/images/Canon.png",
     price: "360",
     rating: 5,
   },
   {
     name: "ASUS FHD Gaming Laptop",
-    image: "/images/laptop.webp",
+    image: "/images/Laptop.png",
     price: "700",
     rating: 5,
   },
@@ -103,7 +103,7 @@ const exploreProducts = [
   },
   {
     name: "Kids Electric Car",
-    image: "/images/redcar.webp",
+    image: "/images/car.png",
     price: "950",
     rating: 5,
     newBadge: true,
@@ -123,7 +123,7 @@ const exploreProducts = [
   },
   {
     name: "Quilted Satin Jacket",
-    image: "/images/jacket.jpeg",
+    image: "/images/Jacket.png",
     price: "860",
     rating: 4,
   },
@@ -192,7 +192,7 @@ const HomePageContent = () => (
       </section>
     </div>
     <section className="max-w-7xl mx-auto px-4 mb-14">
-      <p className="uppercase text-red-600 font-semibold mb-1 select-none">Today's</p>
+      <p className="uppercase text-red-600 font-semibold mb-1 select-none">Today&apos;s</p>
       <h3 className="text-2xl font-bold mb-4 select-none">Flash Sales</h3>
       <div className="flex flex-wrap gap-4 md:gap-6 items-center mb-4 select-none text-sm font-mono font-semibold text-gray-800">
         {[
@@ -443,7 +443,7 @@ const HomePageContent = () => (
               sizes="(min-width: 768px) 192px, 100vw"
             />
             <div className="absolute bottom-3 left-3 text-white text-lg font-semibold z-10">
-              Women's Collections
+              Women&apos;s Collections
               Featured woman collections that give you another vibe.
             </div>
             <Link
@@ -502,7 +502,7 @@ const HomePageContent = () => (
         <p className="text-gray-600 text-sm">Friendly 24/7 customer support</p>
       </div>
       <div>
-        <div className="mb-3 flex justify-center items-center">
+     <div className="mb-3 flex justify-center items-center">
           <Image src="/icons/tick.svg" alt="Tick" width={36} height={36} />
         </div>
         <h4 className="font-semibold mb-1">MONEY BACK GUARANTEE</h4>

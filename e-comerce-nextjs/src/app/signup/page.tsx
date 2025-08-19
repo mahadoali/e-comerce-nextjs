@@ -18,7 +18,7 @@ const handleSubmit = (e: React.FormEvent) => {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 px-4">
          <div className="flex-1 flex justify-center">
             <Image
-              src="/images/signup-phone-cart.jpg"
+              src="/images/signup-phone-cart.png"
               alt="Shopping illustration"
               width={500}
               height={600}
