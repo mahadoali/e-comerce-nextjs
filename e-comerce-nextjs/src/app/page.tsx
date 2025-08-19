@@ -1,6 +1,5 @@
-
-import HomePage from './home/page';
+import SignupPage from './signup/page';
 
 export default function RootPage() {
-  return <HomePage />;
+  return <SignupPage />;
 }
